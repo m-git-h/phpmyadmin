@@ -32,7 +32,7 @@ $cfg['Servers'][$i]['host'] = 'localhost';
 $cfg['Servers'][$i]['connect_type'] = 'tcp';
 // $cfg['Servers'][$i]['host'] = $_ENV['MYSQL_HOST'];
 $cfg['Servers'][$i]['compress'] = false;
-$cfg['Servers'][$i]['AllowNoPassword'] = false;
+$cfg['Servers'][$i]['AllowNoPassword'] = true;
 $cfg['Servers'][$i]['port'] = 3306;
 
 /**
