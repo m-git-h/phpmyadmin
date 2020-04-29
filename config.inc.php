@@ -30,8 +30,8 @@ $cfg['Servers'][$i]['auth_type'] = 'config';  // cookie or config
 /* Server parameters */
 $cfg['Servers'][$i]['connect_type'] = 'tcp';
 // $cfg['Servers'][$i]['host'] = 'localhost';
-$cfg['Servers'][$i]['host'] = '127.0.0.1';
-// $cfg['Servers'][$i]['host'] = $_ENV['MYSQL_HOST'];
+// $cfg['Servers'][$i]['host'] = '127.0.0.1';
+$cfg['Servers'][$i]['host'] = $_ENV['MYSQL_HOST'];
 $cfg['Servers'][$i]['compress'] = false;
 $cfg['Servers'][$i]['user'] = 'admin';
 $cfg['Servers'][$i]['password'] = 'admin';
