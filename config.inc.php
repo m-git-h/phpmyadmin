@@ -33,9 +33,9 @@ $cfg['Servers'][$i]['connect_type'] = 'tcp';
 $cfg['Servers'][$i]['host'] = '127.0.0.1';
 // $cfg['Servers'][$i]['host'] = $_ENV['MYSQL_HOST'];
 $cfg['Servers'][$i]['compress'] = false;
-$cfg['Servers'][$i]['user'] = 'root';
-$cfg['Servers'][$i]['password'] = '';
-$cfg['Servers'][$i]['AllowNoPassword'] = true;
+$cfg['Servers'][$i]['user'] = 'admin';
+$cfg['Servers'][$i]['password'] = 'admin';
+$cfg['Servers'][$i]['AllowNoPassword'] = false;
 $cfg['Servers'][$i]['port'] = 3306;
 
 /**
@@ -43,10 +43,10 @@ $cfg['Servers'][$i]['port'] = 3306;
  */
 
 /* User used to manipulate with storage */
-$cfg['Servers'][$i]['controlhost'] = '';
-$cfg['Servers'][$i]['controlport'] = '';
-$cfg['Servers'][$i]['controluser'] = 'pma';
-$cfg['Servers'][$i]['controlpass'] = 'pmapass';
+// $cfg['Servers'][$i]['controlhost'] = '';
+// $cfg['Servers'][$i]['controlport'] = '';
+// $cfg['Servers'][$i]['controluser'] = 'pma';
+// $cfg['Servers'][$i]['controlpass'] = 'pmapass';
 
 /* Storage database and tables */
 $cfg['Servers'][$i]['pmadb'] = 'phpmyadmin';
